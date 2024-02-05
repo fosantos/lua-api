@@ -1,8 +1,8 @@
 mongoDB = {}
 
-local mongo = require("mongo")
-local cjson = require("cjson")
-local config = require("configuration")
+local mongo = require "mongo"
+local cjson = require "cjson"
+local config = require "configuration"
 
 local client = mongo.Client(config.url)
 local collection = assert(client:getCollection(config.database, config.collection))

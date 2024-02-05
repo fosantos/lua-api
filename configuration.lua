@@ -1,7 +1,7 @@
 config = {}
 
-config.url = "mongodb+srv://XXXXXXXX"
-config.database = "XXXXXn"
-config.collection = "XXXX"
+config.url = "mongodb://admin:admin@localhost:27017/"
+config.database = "test"
+config.collection = "register"
 
 return config
