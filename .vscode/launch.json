@@ -7,8 +7,8 @@
         {
             "type": "lua",
             "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/main.lua"
+            "name": "Launch",
+            "program": "/home/fosantos/lua-projects/lua-api/main.lua"
         }
     ]
 }
