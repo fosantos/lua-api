@@ -2,6 +2,7 @@ local http_server = require "http.server"
 local http_headers = require "http.headers"
 local json = require "dkjson"
 local util = require "util"
+local service = require "service"
 
 local persons = {{id=1, name="Fabio"}, {id=2, name="Claudia"}, {id=3, name="Natasha"}}
 

@@ -1,15 +1,19 @@
-local function get()
+local service = {}
+
+function service.get()
 
 end
 
-local function get(id)
+function service.get(id)
 
 end
 
-local function insert(data)
+function service.insert(data)
 
 end
 
-local function delete(id)
+function service.delete(id)
 
 end
+
+return service
